@@ -4,7 +4,7 @@ import java.util.Scanner;
 class HotelReservationSystem {
     private static final String URL = "jdbc:mysql://localhost:3306/hotel_db";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "@Anshulsingh66";
+    private static final String PASSWORD = "@EnterYourMysqlPassword";
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USERNAME, PASSWORD);
